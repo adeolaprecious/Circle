@@ -1,0 +1,42 @@
+#body{
+    justify-content: center;
+}
+#circle{
+    width: 250px;
+    height: 250px;
+    border: 2px solid red;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    right: 50%;
+    background-color: red;
+    /* filter: opacity(0.8); */
+    mix-blend-mode: difference;
+}
+
+.circular{
+    width: 250px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    background-color: blue;
+    /* filter: opacity(0.8); */
+    mix-blend-mode: difference;
+}
+
+.innercircle{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border:  2px solid yellow;
+    top: 150px;
+    left: 100px;
+    position: absolute;
+    background-color: yellow;
+    /* filter: opacity(0.8); */
+    mix-blend-mode: difference;
+}
